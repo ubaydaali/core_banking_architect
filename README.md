@@ -53,3 +53,13 @@ The project implements a **Sequential Master File Update (Balance Line Algorithm
 2. Compile the engine: 
    ```bash
    cobc -x -free -o cobol_engine/hydra_core src/hydra_core.cbl
+
+
+## 🌐 Live Demo & Source Code
+
+Experience the speed and security of the HYDRA Engine in real-time. The cloud-native dashboard demonstrates the sub-millisecond execution of the COBOL backend alongside automated PII masking.
+
+* **Live Interactive Dashboard:** [HYDRA Cloud Demo](https://corebankingarchitect.streamlit.app/)
+* **Source Code & Architecture:** [GitHub Repository](https://github.com/ubaydaali/core_banking_architect/tree/main)
+
+---
