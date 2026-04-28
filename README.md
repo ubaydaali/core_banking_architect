@@ -1,5 +1,5 @@
 # HYDRA Core-Banking Settlement & SWIFT Gateway 🏦🚀
-
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=ubaydaali.core_banking_architect)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![COBOL](https://img.shields.io/badge/Language-COBOL-blue.svg)](#)
 [![Python](https://img.shields.io/badge/Language-Python-green.svg)](#)
