@@ -9,14 +9,14 @@ st.set_page_config(page_title="HYDRA Core-Banking", page_icon="🏦", layout="wi
 st.title("🏦 HYDRA Core-Banking Settlement & SWIFT Gateway")
 st.markdown("### Powered by COBOL Engine & Zero-Trust Architecture")
 
-# ذكاء التعرف على نظام التشغيل (ويندوز أو لينكس السحابي)
+# OS detection logic (Windows or Cloud Linux)
 is_windows = platform.system() == "Windows"
 binary_name = "hydra_core.exe" if is_windows else "hydra_core"
 exe_path = os.path.join('cobol_engine', binary_name)
 
 if st.button("🚀 Execute Sequential Master Update", type="primary"):
     
-    # إذا لم يجد المحرك (لأننا في السحاب)، سيقوم ببنائه فوراً!
+    # If the engine is not found (e.g., in a cloud environment), compile it immediately!
     if not os.path.exists(exe_path):
         with st.spinner('☁️ Cloud Environment Detected. Compiling COBOL Engine natively...'):
             os.makedirs('cobol_engine', exist_ok=True)
@@ -29,14 +29,10 @@ if st.button("🚀 Execute Sequential Master Update", type="primary"):
         start_time = time.time()
         
         with st.spinner('⚙️ HYDRA Engine is matching records and generating SWIFT...'):
-            with st.spinner('⚙️ HYDRA Engine is matching records and generating SWIFT...'):
-            # السطر السحري الجديد: إنشاء مجلد المخرجات آلياً في السيرفر السحابي
+            # Create the output directory automatically to prevent FileNotFoundError in cloud environments
             os.makedirs(os.path.join('data', 'output'), exist_ok=True)
             
-            # تشغيل المحرك
-            subprocess.run([exe_path])
-            exec_time = time.time() - start_time
-            # تشغيل المحرك
+            # Execute the COBOL engine
             subprocess.run([exe_path])
             exec_time = time.time() - start_time
             
