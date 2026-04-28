@@ -69,7 +69,7 @@ Experience the speed and security of the HYDRA Engine in real-time. The cloud-na
 
 This project is a technical proof-of-concept for **Legacy Modernization**, **System Integration**, and **Zero-Trust FinTech Architectures**. For architectural consulting, enterprise custom builds, or business inquiries, please reach out via the following official channels:
 
-* **Lead Architect:** Obeda Al-Ali (Abu Zubair)
+* **Lead Architect:** Ubayda ali
 * **Official Email:** [admin@onws.net](mailto:admin@onws.net)
 * **LinkedIn Profile:** [Ubayda Ali](https://www.linkedin.com/in/ubayda-ali-95972a406/)
 * **Technical Blog:** [onws.net](https://onws.net)
