@@ -29,6 +29,13 @@ if st.button("🚀 Execute Sequential Master Update", type="primary"):
         start_time = time.time()
         
         with st.spinner('⚙️ HYDRA Engine is matching records and generating SWIFT...'):
+            with st.spinner('⚙️ HYDRA Engine is matching records and generating SWIFT...'):
+            # السطر السحري الجديد: إنشاء مجلد المخرجات آلياً في السيرفر السحابي
+            os.makedirs(os.path.join('data', 'output'), exist_ok=True)
+            
+            # تشغيل المحرك
+            subprocess.run([exe_path])
+            exec_time = time.time() - start_time
             # تشغيل المحرك
             subprocess.run([exe_path])
             exec_time = time.time() - start_time
