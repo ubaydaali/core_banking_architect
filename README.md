@@ -72,7 +72,7 @@ This project is a technical proof-of-concept for **Legacy Modernization**, **Sys
 * **Lead Architect:** Ubayda ali
 * **Official Email:** [admin@onws.net](mailto:admin@onws.net)
 * **LinkedIn Profile:** [Ubayda Ali](https://www.linkedin.com/in/ubayda-ali-95972a406/)
-* **Technical Blog:** [onws.net](https://onws.net)
+* **Technical Blog:** [onws.net](https://apps.onws.net)
 
 ---
 *Developed with a focus on Security, Precision, and Performance.*
